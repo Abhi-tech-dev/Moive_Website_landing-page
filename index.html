@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Movie Website | Animated Landing Page</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">iMovies</a>
+        <ul class="nav">
+            <li><a href="#"><i class="material-symbols-outlined">home</i></a></li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Trend</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search" />
+            <i class="material-symbols-outlined" aria-hidden="true">search</i>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="content title1 active">
+            <img src="../images/title1.png" alt="" class="movie-title" />
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste iusto beatae repellat suscipit excepturi reprehenderit. Aut illo nisi quos pariatur suscipit commodi repellat? Obcaecati quibusdam libero laborum earum odit.</p>
+            <div class="button">
+                <a href="#"><i class="material-symbols-outlined">play_arrow</i>Watch</a>
+                <a href="#"><i class="material-symbols-outlined">add_2</i>My List</a>
+            </div>
+        </div>
+        <div class="content title2">
+            <img src="../images/title2.png" alt="" class="movie-title" />
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste iusto beatae repellat suscipit excepturi reprehenderit. Aut illo nisi quos pariatur suscipit commodi repellat? Obcaecati quibusdam libero laborum earum odit.</p>
+            <div class="button">
+                <a href="#"><i class="material-symbols-outlined">play_arrow</i>Watch</a>
+                <a href="#"><i class="material-symbols-outlined">add_2</i>My List</a>
+            </div>
+        </div>
+        <div class="content title3">
+            <img src="../images/title3.png" alt="" class="movie-title" />
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste iusto beatae repellat suscipit excepturi reprehenderit. Aut illo nisi quos pariatur suscipit commodi repellat? Obcaecati quibusdam libero laborum earum odit.</p>
+            <div class="button">
+                <a href="#"><i class="material-symbols-outlined">play_arrow</i>Watch</a>
+                <a href="#"><i class="material-symbols-outlined">add_2</i>My List</a>
+            </div>
+        </div>
+        <div class="content title4">
+            <img src="../images/title4.png" alt="" class="movie-title" />
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste iusto beatae repellat suscipit excepturi reprehenderit. Aut illo nisi quos pariatur suscipit commodi repellat? Obcaecati quibusdam libero laborum earum odit.</p>
+            <div class="button">
+                <a href="#"><i class="material-symbols-outlined">play_arrow</i>Watch</a>
+                <a href="#"><i class="material-symbols-outlined">add_2</i>My List</a>
+            </div>
+        </div>
+        <div class="content title5">
+            <img src="../images/title5.png" alt="" class="movie-title" />
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste iusto beatae repellat suscipit excepturi reprehenderit. Aut illo nisi quos pariatur suscipit commodi repellat? Obcaecati quibusdam libero laborum earum odit.</p>
+            <div class="button">
+                <a href="#"><i class="material-symbols-outlined">play_arrow</i>Watch</a>
+                <a href="#"><i class="material-symbols-outlined">add_2</i>My List</a>
+            </div>
+        </div>
+
+        <div class="carousel-box">
+            <div class="carousel">
+                
+                <div class="carousel-item" onClick="changeBg('title1_bg.png', 'title1');">
+                    <img src="../images/title1_c.png" alt="">
+                </div>
+                
+                <div class="carousel-item" onClick="changeBg('title2_bg.png', 'title2');">
+                    <img src="../images/title2_c.png" alt="">
+                </div>
+                
+                <div class="carousel-item" onClick="changeBg('title3_bg.png', 'title3');">
+                    <img src="../images/title3_c.png" alt="">
+                </div>
+                
+                <div class="carousel-item" onClick="changeBg('title4_bg.png', 'title4');">
+                    <img src="../images/title4_c.png" alt="">
+                </div>
+                
+                <div class="carousel-item" onClick="changeBg('title5_bg.png', 'title5');">
+                    <img src="../images/title5_c.png" alt="">
+                </div>
+               
+            </div>
+        </div>
+        <a href="#" class="play" onClick="toggleVideo()">
+            <i class="material-symbols-outlined">
+                play_circle
+            </i>
+            Watch Trailer
+        </a>
+        <ul class="sci">
+            <li><a href="#">
+                <svg class="social" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                    <path d="M0 0 C1.22589844 0.01353516 1.22589844 0.01353516 2.4765625 0.02734375 C3.41628906 0.04474609 3.41628906 0.04474609 4.375 0.0625 C4.375 2.0425 4.375 4.0225 4.375 6.0625 C2.725 6.3925 1.075 6.7225 -0.625 7.0625 C-0.955 8.3825 -1.285 9.7025 -1.625 11.0625 C0.355 11.0625 2.335 11.0625 4.375 11.0625 C4.045 13.3725 3.715 15.6825 3.375 18.0625 C1.725 18.0625 0.075 18.0625 -1.625 18.0625 C-1.625 22.6825 -1.625 27.3025 -1.625 32.0625 C-3.935 32.0625 -6.245 32.0625 -8.625 32.0625 C-8.625 27.4425 -8.625 22.8225 -8.625 18.0625 C-10.275 18.0625 -11.925 18.0625 -13.625 18.0625 C-13.625 15.7525 -13.625 13.4425 -13.625 11.0625 C-11.975 11.0625 -10.325 11.0625 -8.625 11.0625 C-8.66625 10.155 -8.7075 9.2475 -8.75 8.3125 C-8.62898426 5.16609074 -8.34395868 3.64093802 -6.625 1.0625 C-4.21954362 -0.14022819 -2.67503047 -0.03821472 0 0 Z " transform="translate(20.625,-0.0625)"/>
+                </svg>
+            </a></li>
+            <li><a href="#">
+                <svg class="social" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                    <path d="M0 0 C0.89396484 -0.01224609 1.78792969 -0.02449219 2.70898438 -0.03710938 C7.24323621 -0.04720793 10.97545425 -0.03354102 15.0625 2.1875 C17.15628992 4.28128992 16.24764428 8.67910032 16.25 11.5625 C16.26224609 12.34367187 16.27449219 13.12484375 16.28710938 13.9296875 C16.29721426 17.86385523 16.29188367 19.84342449 14.0625 23.1875 C9.63826207 24.81698755 4.77404887 24.37166256 0.125 24.375 C-0.76896484 24.38724609 -1.66292969 24.39949219 -2.58398438 24.41210938 C-11.04099099 24.43094458 -11.04099099 24.43094458 -14.9375 22.1875 C-16.57926774 18.90396451 -16.12204039 15.29230362 -16.125 11.6875 C-16.13724609 10.90246094 -16.14949219 10.11742187 -16.16210938 9.30859375 C-16.16736254 7.26686274 -16.0597018 5.22557749 -15.9375 3.1875 C-11.72550655 -1.02449345 -5.59505231 0.00401655 0 0 Z M-2.9375 8.1875 C-2.9375 10.8275 -2.9375 13.4675 -2.9375 16.1875 C-0.6275 15.1975 1.6825 14.2075 4.0625 13.1875 C4.0625 12.5275 4.0625 11.8675 4.0625 11.1875 C0.84135843 8.87157978 0.84135843 8.87157978 -2.9375 8.1875 Z " transform="translate(15.9375,3.8125)"/>
+                </svg>
+            </a></li>
+            <li><a href="#">
+                <svg class="social" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                    <path d="M0 0 C3.80200661 -0.54797604 7.22327996 -0.79264495 11 0 C13.73315938 2.65049293 15.38763727 5.57117799 17 9 C20.45281166 7.84906278 21.38082163 6.6794007 23.6875 3.9375 C24.31011719 3.20402344 24.93273437 2.47054688 25.57421875 1.71484375 C26.04472656 1.14894531 26.51523437 0.58304687 27 0 C28.32 0.33 29.64 0.66 31 1 C27.7 4.96 24.4 8.92 21 13 C22.73094219 17.32735548 24.30177877 19.98746168 27.0625 23.625 C30.89451023 28.68353068 30.89451023 28.68353068 32 32 C28.16711813 32.62379633 24.80568558 32.86724738 21 32 C17.95719511 29.0402751 15.96020806 25.74647274 14 22 C12.9171875 23.0828125 12.9171875 23.0828125 11.8125 24.1875 C10.884375 25.115625 9.95625 26.04375 9 27 C8.154375 27.94875 7.30875 28.8975 6.4375 29.875 C5.633125 30.57625 4.82875 31.2775 4 32 C2.68 31.67 1.36 31.34 0 31 C3.63 26.71 7.26 22.42 11 18 C9.9275 16.329375 8.855 14.65875 7.75 12.9375 C5.04144599 8.68512515 2.44809012 4.40656222 0 0 Z M6 3 C10.1241496 11.10608714 15.38651358 18.18491331 20.8425293 25.42529297 C21.93989404 26.91822749 22.97222229 28.45833343 24 30 C24.99 29.67 25.98 29.34 27 29 C26.66790527 28.53215088 26.33581055 28.06430176 25.99365234 27.58227539 C24.45279055 25.40994353 22.91390016 23.2362219 21.375 21.0625 C20.82465088 20.28720947 20.27430176 19.51191895 19.70727539 18.71313477 C16.38581576 14.01843134 13.16823097 9.28970151 10.18359375 4.37109375 C9.59771484 3.69240234 9.59771484 3.69240234 9 3 C8.01 3 7.02 3 6 3 Z " transform="translate(0,0)"/>
+                </svg>
+            </a></li>
+        </ul> 
+    </div>
+
+    <div class="trailer">
+        <video 
+          src="../assets/sample.mp4"
+          muted
+          controls="true"
+          autoplay="true"
+        ></video>
+        <i class="material-symbols-outlined" id="close" onClick="toggleVideo();">close</i>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+          $(document).ready(function(){
+            $('.carousel').carousel();
+          });
+    </script>
+</body>
+</html>
