@@ -99,7 +99,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url('../images/movies/title1_bg.png') no-repeat;
+    background: url('title1_bg.png') no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
